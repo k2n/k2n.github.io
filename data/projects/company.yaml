@@ -1,0 +1,32 @@
+modalID: 5
+title: 会社概要
+date: 2016-08-01
+img: 5.jpg
+client: Start Bootstrap
+clientLink: "#"
+description: "<style>th, td { padding: 15px;}</style>
+    <table>
+    <tr>
+    <td>社名</td><td>株式会社シグニファイア</td>
+    </tr>
+    <tr>
+    <td>英名</td><td>Signifier, Inc.</td>
+    </tr>
+    <tr>
+    <td>設立</td><td>2016年7月13日</td>
+    </tr>
+    <tr>
+    <td>資本金</td><td>3,000,000円</td>
+    </tr>
+    <tr>
+    <td>本社</td><td>〒164-0001東京都中野区中野4-10-1<br>NAKANO CENTRAL PARK EAST 1F ICTCO #23</td>
+    </tr>
+    <tr>
+    <td>代表</td><td>中村 研二</td>
+    </tr>
+    </table>
+    
+    <h3>社名の由来</h3>
+Signifierという社名は、スイスの言語学者フェルディナン・ド・ソシュールが提唱したシニフィアン（仏:Signifiant)「意味しているもの」「表しているもの」
+に由来しています。ソフトウェア開発の本質である、開発対象をどのようにコンピュータ言語で表現するかを追求し続けていきたいという気持ちを込めて命名されました。
+    "

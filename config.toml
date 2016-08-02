@@ -1,0 +1,101 @@
+baseurl = "http://signifier.jp/"
+languageCode = "ja-jp"
+title = "シグニファイア"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "株式会社シグニファイア"
+	description = "Clojure, AWS, Dockerに特化したスタートアップ向けクラウドサービス開発"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "株式会社シグニファイア"
+
+		[params.navigation.links]
+			about     = "ビスポーク開発"
+			services  = "サービス"
+			portfolio = "ポートフォリオ"
+			contact   = "コンタクト"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Less Code, More Value"
+		subtitle   = "カスタマーのニーズのヒアリングからシステムの運用まで、サービス開発の全てのアスペクトを一人の開発者が一貫して担当します。 カスタマーからのフィードバックをいただきながら継続的に進化させる、ビスポーク開発を実現します。"
+		buttonText = "さらに詳しく"
+
+
+	# About section
+	[params.about]
+		headline    = "ビスポーク開発"
+		description = "「ビスポーク」(Bespoke)とは、カスタマーと対話を続け、ニーズにマッチするカスタムメードのサービスを作り出すこと。シグニファイアは、書いたコードをその場で評価実行できるClojureからクラウドサービスを制御することで環境を最小限の時間で整え、カスタマーに動くコードを素早くお見せします。アイデアをその場で形にし、データモデルやユーザーインターフェースのフィードバックをすぐにいただくとともに、最新のテクノロジーを活用したソリューションをご提案することで、カスタマーの求めるシステムを有機的に開発します。"
+	buttonText  = "ポートフォリオをみる"
+
+
+	# Service section
+	[params.services]
+		headline = "サービスとテクノロジー"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Clojure"
+            #description = "hoge"
+            description = "ClojureはJava仮想マシンとJavascript Engine上で動作する、LISP系の言語です。50余年の歴史に裏打ちされた優れた設計思想と、Java/Javascriptの豊富なライブラリ資産が組み合わさることで、高い品質のコードを、ランタイムと対話しながら記述することが可能になりました。シグニファイアには、累計投資200億円規模のポートフォリオを持つトレーディングプラットフォームの基幹システムをClojureで構築した経験を持つ開発者がおり、小さなシステムからミッションクリティカルなシステムまで幅広く対応します。"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Micro Services"
+			description = "シグニファイアはマイクロサービスによるシステム構築の経験が豊富です。今のビジネスにとって、一番費用対効果の高い機能に絞って実装し、なるだけ早く運用を開始します。そこから有機的にサービスを追加することで、ニーズのないところに投資するリスクを極小化します。「コードは最小限に、価値は最大限に」がシグニファイアのモットーです。"
+
+		[[params.services.list]]
+            icon = "fa-cloud"
+            title = "Docker & AWS"
+            description = "DockerはLinux/Windows/MacOS上でLinuxプロセスを動作させる軽量仮想マシンをベースに、プログラミングでプロセスのビルド、実行を管理するための環境です。従来であればDevOpsに任せなければいけなかったRDBMS、プロキシなどのサービスを、アプリケーション開発者が管理することを可能にしました。Amazon Web Serviceは、クラウドのデファクト・スタンダードです。シグニファイアではAWSとDockerに特化したDevOpsフレームワークを開発したことで、インフラストラクチャ管理を人手による操作ではなく、コードを記述して行い、運用の自動化と環境の高い再現性を実現しています。"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Pay as Develop"
+            description = "シグニファイアでは受託開発という形式はとらず、顧問契約＋実働時間に応じたフィーを頂くモデルを採用しています。プロジェクトの開始時にゴールを設定するのではなく、開始直後からカスタマーの売上、利益に貢献できる機能を提供し、効果を見極めながら機能を追加・修正していきます。新規ビジネスのアイデアはあるものの、システム化のイメージがつかめていないスタートアップ企業の方、業務の効率化をトライ・アンド・エラーのアプローチで進めたいと考えているプロジェクトリーダーの方、ぜひご相談ください。"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "コンタクト"
+		description = "〒164-0001 東京都中野区中野4-10-1<br>NAKANO CENTRAL PARK EAST 1F ICTCO #23"
+		phone = "050-5539-5623"
+		email = "info@signifier.jp"
