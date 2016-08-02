@@ -23,7 +23,7 @@ theme = "hugo-creative-theme"
 	description = "Clojure, AWS, Dockerに特化したスタートアップ向けクラウドサービス開発"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "signifier.ico"
 
 
 	# Navigation
