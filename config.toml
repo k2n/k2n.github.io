@@ -96,6 +96,6 @@ theme = "hugo-creative-theme"
 	# Contact section
 	[params.contact]
 		headline = "コンタクト"
-		description = "〒164-0001 東京都中野区中野4-10-1<br>NAKANO CENTRAL PARK EAST 1F ICTCO #23"
+		description = "〒166-0002 東京都杉並区高円寺北2-3-15<br>オフィスアイ402"
 		phone = "03-6670-3665"
 		email = "info@signifier.jp"
