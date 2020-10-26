@@ -1,4 +1,4 @@
-baseurl = "https://signifier.jp/"
+baseurl = "/"
 languageCode = "ja-jp"
 title = "シグニファイア"
 theme = "hugo-creative-theme"
